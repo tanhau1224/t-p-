@@ -1,0 +1,10 @@
+[map "8120fdb7-6410-3fe8-b71a-87ffdf63687b"]
+	excludePath = bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
+	object = 28d29a863997014b7e646ef8d92833dd10c153ae
+	subtree = bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
+	type = include + expand tree
+[map "ad07bbb1-4d2a-319e-8f98-3db80bbc0b8e"]
+	excludePath = bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
+	object = 77e1b708a43e9a3645a8fb4ab064064ecf0b11af
+	path = module
+	type = include + expand module

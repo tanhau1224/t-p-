@@ -1,0 +1,5 @@
+[map "c8310f3c-1a38-3937-9294-6ae5c153b854"]
+	excludePath = bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
+	object = 92c25e7adbea9418782492bcde4e347624a8dae0
+	subtree = bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
+	type = extract tree + exclude

@@ -1,0 +1,15 @@
+[module "aeed691b-04a2-3155-a183-6fc01c44ba76"]
+	conflict = request-pull
+	excludePath = bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
+	path = module
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	subtree = bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
+	url = agnostic://gh/464300069
+[map "cc61a5a4-c657-3a8b-ade0-d32bdd2ecb3f"]
+	excludePath = bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
+	object = 92c25e7adbea9418782492bcde4e347624a8dae0
+	path = module
+	stage = sync
+	type = extract module + exclude
